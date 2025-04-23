@@ -16,9 +16,13 @@ my $m = mock_context('MyApp');
 my $c = $m->(GET '/');
 ```
 
-# METHODS
+# EXPORTS
 
-## my $sub = mock\_context('MyApp');
+## mock\_context
+
+```perl
+my $sub = mock_context('MyApp');
+```
 
 This method returns a closure that takes an HTTP::Request object and returns a
 [Catalyst](https://metacpan.org/pod/Catalyst) context object for that request.

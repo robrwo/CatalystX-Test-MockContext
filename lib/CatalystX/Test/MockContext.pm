@@ -21,7 +21,9 @@ use Sub::Exporter -setup => {
   groups => { default => [qw(mock_context)] }
 };
 
-=method my $sub = mock_context('MyApp');
+=export mock_context
+
+ my $sub = mock_context('MyApp');
 
 This method returns a closure that takes an HTTP::Request object and returns a
 L<Catalyst> context object for that request.
