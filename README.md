@@ -24,7 +24,7 @@ my $c = $m->(GET '/');
 my $sub = mock_context('MyApp');
 ```
 
-This method returns a closure that takes an HTTP::Request object and returns a
+This function returns a closure that takes an [HTTP::Request](https://metacpan.org/pod/HTTP%3A%3ARequest) object and returns a
 [Catalyst](https://metacpan.org/pod/Catalyst) context object for that request.
 
 # SOURCE

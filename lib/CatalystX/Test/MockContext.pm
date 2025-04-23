@@ -27,7 +27,7 @@ use Sub::Exporter -setup => {
 
  my $sub = mock_context('MyApp');
 
-This method returns a closure that takes an HTTP::Request object and returns a
+This function returns a closure that takes an L<HTTP::Request> object and returns a
 L<Catalyst> context object for that request.
 
 =cut
