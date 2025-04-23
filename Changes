@@ -9,6 +9,8 @@ Revision history for CatalystX::Test::MockContext
 
   - README.md is generated from POD.
 
+  - Added an INSTALL guide.
+
   - Updated copyright year.
 
   [Other]
