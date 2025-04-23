@@ -58,4 +58,10 @@ sub mock_context {
   }
 }
 
+=head1 append:AUTHOR
+
+Currently maintained by Robert Rothenberg <rrwo@cpan.org>
+
+=cut
+
 1;
