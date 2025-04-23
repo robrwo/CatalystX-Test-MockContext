@@ -1,6 +1,9 @@
 Revision history for CatalystX::Test::MockContext
 
 {{$NEXT}}
+  [Enhancements]
+  - Added a cpanfile to the distribution.
+
   [Documentation]
   - Reformatted documentation.
 
