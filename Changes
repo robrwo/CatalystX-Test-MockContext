@@ -11,6 +11,8 @@ Revision history for CatalystX::Test::MockContext
 
   - Added an INSTALL guide.
 
+  - Added a security policy (SECURITY.md).
+
   - Updated copyright year.
 
   [Other]
