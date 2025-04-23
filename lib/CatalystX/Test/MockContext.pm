@@ -4,6 +4,8 @@ package CatalystX::Test::MockContext;
 use Plack::Test;
 use Class::Load ();
 
+our $VERSION = '0.000004';
+
 #ABSTRACT: Conveniently create $c objects for testing
 
 =head1 SYNOPSIS
