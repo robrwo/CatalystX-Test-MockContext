@@ -16,6 +16,9 @@ Revision history for CatalystX::Test::MockContext
   [Other]
   - New maintainer, updated documentation and metadata.
 
+  [Tests]
+  - Added more author tests.
+
 0.000003  2017-12-11 09:48:31+00:00 Europe/London
   - Add missing version number to release
 
