@@ -8,6 +8,11 @@ requires "Sub::Exporter" => "0";
 requires "strict" => "0";
 requires "warnings" => "0";
 
+on 'build' => sub {
+  requires "ExtUtils::MakeMaker" => "7.22";
+  requires "Module::Metadata" => "1.000015";
+};
+
 on 'test' => sub {
   requires "Catalyst" => "0";
   requires "Catalyst::Controller" => "0";
