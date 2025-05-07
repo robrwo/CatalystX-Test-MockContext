@@ -27,6 +27,12 @@ my $sub = mock_context('MyApp');
 This function returns a closure that takes an [HTTP::Request](https://metacpan.org/pod/HTTP%3A%3ARequest) object and returns a
 [Catalyst](https://metacpan.org/pod/Catalyst) context object for that request.
 
+# SUPPORT FOR OLDER PERL VERSIONS
+
+This module requires Perl v5.14 or later.
+
+Future releases may only support Perl versions released in the last ten (10) years.
+
 # SOURCE
 
 The development version is on github at [https://github.com/robrwo/CatalystX-Test-MockContext](https://github.com/robrwo/CatalystX-Test-MockContext)

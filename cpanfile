@@ -5,7 +5,7 @@ requires "Catalyst" => "0";
 requires "Class::Load" => "0";
 requires "Plack::Test" => "0";
 requires "Sub::Exporter" => "0";
-requires "strict" => "0";
+requires "perl" => "v5.14.0";
 requires "warnings" => "0";
 
 on 'build' => sub {
@@ -26,7 +26,7 @@ on 'test' => sub {
   requires "Test::Exception" => "0";
   requires "Test::More" => "0";
   requires "lib" => "0";
-  requires "perl" => "5.006";
+  requires "strict" => "0";
 };
 
 on 'test' => sub {

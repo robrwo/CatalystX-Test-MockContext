@@ -1,6 +1,8 @@
-use strict;
-use warnings;
 package CatalystX::Test::MockContext;
+
+use v5.14;
+use warnings;
+
 use Plack::Test;
 use Class::Load ();
 
@@ -61,6 +63,12 @@ sub mock_context {
     return $c;
   }
 }
+
+=head1 SUPPORT FOR OLDER PERL VERSIONS
+
+This module requires Perl v5.14 or later.
+
+Future releases may only support Perl versions released in the last ten (10) years.
 
 =head1 append:BUGS
 
